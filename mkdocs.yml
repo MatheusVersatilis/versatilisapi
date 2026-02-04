@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: Versatilis API
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Autenticação: auth.md
+  - Login:
+      - Login Portal: login/loginportal.md

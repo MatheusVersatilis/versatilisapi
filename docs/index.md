@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Versatilis - API Portal do Paciente
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Bem-vindo à API de Integração da **Versatilis System**.
 
-## Commands
+Esta API permite a integração de aplicativos com o sistema Versatilis, utilizando o padrão REST.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Formato de Integração
 
-## Project layout
+A integração é realizada por meio de chamadas HTTP REST:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
++ **Base URL:** `https://<link_do_cliente>/api/[endpoint]`
++ Os parâmetros devem ser enviados via `GET` ou `POST`.
++ As respostas serão sempre no formato **JSON**, conforme descrito nesta documentação.
