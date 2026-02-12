@@ -1,8 +1,65 @@
 site_name: Versatilis API
 theme:
   name: material
+  palette:
+    primary: "#10BDC3"
+    accent: "#2C7980"
 nav:
   - Home: index.md
   - Autenticação: auth.md
   - Login:
       - Login Portal: login/loginportal.md
+      - Solicitar Nova Senha: login/solicitarsenha.md
+      - Cadastrar Novo Usuário: login/cadastrarusuario.md
+      - Cadastrar Novo Usuário Básico: login/cadastrarusuariobasico.md
+      - Alterar Dados do Usuario: login/alterarusuario.md
+      - Listar Dados do Usuário por Código: login/dadosusuarioporcodigo.md
+      - Listar Dados do Usuário por CPF: login/dadosusuarioporcpf.md
+      - Listar Dados do Usuário por Email: login/dadosusuarioporemail.md
+      - Listar Dados do Usuário por Nome: login/dadosusuariopornome.md
+      - Listar Dados do Usuário: login/dadosusuario.md
+      - Listar CodUsuario pelo CPF: login/codusuarioporcpf.md
+  - Especialidade:
+      - Listar todas Especialidades: especialidade/listartodasespecialidades.md
+      - Especialidades por Nome: especialidade/especialidadespornome.md
+      - Especialidades com Agenda: especialidade/especialidadescomagenda.md
+      - Especialidades com Agenda para Consulta: especialidade/especialidadescomagendaparaconsulta.md
+  - Colaborador:
+      - Profissionais por Especialidade: colaborador/profissionaisporespecialidade.md
+      - Profissionais por Procedimento: colaborador/profissionaisporprocedimento.md
+      - Profissionais por Nome: colaborador/profissionaispornome.md
+      - Profissionais com Agenda: colaborador/profissionaiscomagenda.md
+  - Procedimento:
+      - Procedimentos por Nome: procedimento/procedimentospornome.md
+      - Procedimentos com Agenda: procedimento/procedimentoscomagenda.md
+      - Procedimentos pelo TUSS: procedimento/procedimentospelotuss.md
+  - Unidade:
+      - Unidades por Especialidade: unidade/unidadesporespecialidade.md
+      - Unidade por Código: unidade/unidadesporcodigo.md
+      - Unidade por Nome: unidade/unidadepornome.md
+  - Convenio:
+      - Convênios do Usuário: convenio/conveniosdousuario.md
+      - Convênios por Especialidade: convenio/conveniosporespecialidade.md
+      - Convênios por Procedimento: convenio/conveniosporprocedimento.md
+      - Todos Convênios: convenio/todosconvenios.md
+  - Agenda:
+      - Dias Disponiveis: agenda/diasdisponiveis.md
+      - Horarios Disponiveis: agenda/horariosdisponiveis.md
+      - Horarios por colaborador: agenda/horariosporcolaborador.md
+      - Marcar Agendamento: agenda/marcaragendamento.md
+      - Put Agendamento: agenda/putagendamento.md
+  - Agendamento:
+      - Consultas Agendadas: agendamento/consultasagendadas.md
+      - Consultas Agendadas por Período: agendamento/consultasagendadasporperiodo.md
+      - Historico de Agendamentos: agendamento/historicoagendamento.md
+      - Agendamentos por ID: agendamento/agendamentosporid.md
+      - Aceitar/Confirmar Agendamento: agendamento/aceitarconfirmaragendamento.md
+      - Cancelar Agendamento: agendamento/cancelaragendamento.md
+  - Pacote:
+      - Listar Pacotes: pacote/listarpacotes.md
+      - Listar Pacotes Vendidos: pacote/listarpacotesvendidos.md
+      - Vender Pacote: pacote/venderpacote.md
+  - Notificacao:
+      - Listar Notificações do Usuário: notificacao/notificacoesdousuario.md
+      - Excluir Notificação: notificacao/excluirnotificacao.md
+      - Excluir Todas Notificações: notificacao/excluirtodasnotificacoes.md

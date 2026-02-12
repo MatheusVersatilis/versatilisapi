@@ -1,0 +1,10 @@
+/* Substitui cores primárias e secundárias do Material */
+:root {
+    --md-primary-fg: #10BDC3;
+    --md-primary-bg: #10BDC3;
+    --md-primary-container-fg: #ffffff; /* se precisar do texto sobre primary */
+    
+    --md-accent-fg: #2C7980;
+    --md-accent-bg: #2C7980;
+    --md-accent-container-fg: #ffffff; /* se precisar do texto sobre accent */
+}
